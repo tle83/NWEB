@@ -1,0 +1,194 @@
+/*
+    #6ed3cf blue rgb(110, 211, 207)
+    #9068be purple rgb(144, 104, 190)
+    #e62739 red rgb(230, 39, 57)
+
+    # = id
+    . = class
+*/
+html, body{
+    /*This make sure that all tag background colors reach the edge of the browser*/
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body {
+    background-color: rgb(49, 44, 50);
+    overflow: auto;
+}
+#splash {
+    position: absolute;
+    top: 13em;
+    left: 10em;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+#fontStyle {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    font-family: Baskerville;
+}
+.title {
+    font-size: 2.5em; /*1 em = 16 px*/
+    position: absolute;
+    top: 4em;
+    left: 5.5em;
+}
+.job{
+    font-size: 1em;
+    position: absolute;
+    left: 13em;
+    top: 13em;
+}
+.copyright {
+    font-size: 1em;
+    position: absolute;
+    top: 37em;
+    left: 13em;
+}
+.menu .button {
+    background-color: rgb(110, 211, 207);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Baskerville;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline;
+    float: left;
+    position: relative;
+    top: 28em;
+    left: 2.5em;
+}
+.button:active {
+    background-color: rgb(230, 39, 57);
+}
+#frame {
+    position: relative;
+    top: 3em;
+    left: 38em;
+    width: 58em;
+    height: 45em;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+iframe {
+    position: absolute;
+    left: 0em;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+#code {
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 56.3em;
+    font-size: .8em;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 20px;
+    font-family: Monaco;
+}
+    #code.codeProject {
+        height: 90em;
+        overflow-x: hidden;
+    }
+#console {
+    width: 100%;
+    height: 1em;
+    margin: 0 auto;
+    padding-top: .5em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: Monaco;
+    background: rgb(250, 250, 250);
+    color: rgb(250, 250, 250);
+}
+    #console.consoleProject {
+        border-top-right-radius: 0px;
+    }
+#info{
+    padding-top: 2em;
+    padding-left: 1.5em;
+    letter-spacing: 1px;
+}
+span.answer {
+    color: rgb(150, 150, 230);
+    padding-left: 20px;
+}
+span.indicator {
+    color: rgb(250, 250, 250);
+}
+#git{
+    position: relative;
+    top: 5em;
+    left: 3em;
+    width: 12em;
+    height: 12em;
+    outline: none;
+    border: none;
+}
+#githubName{
+    position: absolute;
+    top: 18em;
+    left: 7em;
+}
+#email{
+    position: relative;
+    top: 5em;
+    left: 7em;
+    width: 12em;
+    height: 12em;
+    outline: none;
+    border: none;
+}
+#emailName {
+    position: absolute;
+    top: 18em;
+    left: 24em;
+}
+#twitter {
+    position: relative;
+    top: 5em;
+    left: 12em;
+    width: 12em;
+    height: 12em;
+    outline: none;
+    border: none;
+}
+#twitterName {
+    position: absolute;
+    top: 18em;
+    left: 41em;
+}
+#tumblr {
+    position: relative;
+    top: 5em;
+    left: 18em;
+    width: 12em;
+    height: 12em;
+    outline: none;
+    border: none;
+}
+#tumblrName {
+    position: absolute;
+    top: 18em;
+    left: 60em;
+}
+#alert{
+    text-align: center;
+    padding: 50px;
+}

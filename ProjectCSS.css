@@ -1,0 +1,101 @@
+a {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Monaco', 'Courier New';
+    color: rgb(110, 211, 207);
+    text-decoration: none;
+    font-variant: small-caps;
+}
+a:hover {
+    color: rgb(230, 39, 57);
+}
+a.codeLink {
+    background-color: rgb(110, 211, 207);
+    border: 1px solid rgb(110, 211, 207);
+    color: rgb(97, 36, 59);
+    padding: 5px 20px;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-family: Baskerville;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+#projectSS {
+    text-align: left;
+    letter-spacing: .5px;
+}
+#paintImg {
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid rgb(43, 43, 43);
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    float: left;
+}
+#paintInfo {
+    position: absolute;
+    top: 2.5em;
+    left: 30em;
+}
+#langBox {
+    border: 1px solid rgb(110, 211, 207);
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-family: Baskerville;
+    text-align: center;
+    display: inline-block;
+    cursor: auto;
+    border-radius: 10px;
+    
+}
+#paintLang {
+    position: relative;
+    top: 11em;
+}
+#mimicImg {
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid rgb(43, 43, 43);
+    float: left;
+    position: absolute;
+    left: 2em;
+    top: 27em;
+    
+}
+#mimicInfo{
+    position: absolute;
+    top: 26em;
+    left: 30em;
+    
+}
+#mimicLang{
+    position: absolute;
+    top: 22em;
+}
+#kingdomImg {
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid rgb(43, 43, 43);
+    float: left;
+    position: absolute;
+    left: 2em;
+    top: 55em;
+}
+#kingdomInfo {
+    position: absolute;
+    top: 54em;
+    left: 30em;
+}
+#kingdomLang {
+    position: absolute;
+    top: 17em;
+}
