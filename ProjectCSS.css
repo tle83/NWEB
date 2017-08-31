@@ -25,6 +25,7 @@ a.codeLink {
 }
 #projectSS {
     text-align: left;
+    display: inline-block;
     letter-spacing: .5px;
 }
 #paintImg {
@@ -39,8 +40,8 @@ a.codeLink {
 }
 #paintInfo {
     position: absolute;
-    top: 2.5em;
-    left: 30em;
+    top: 5%;
+    left: 50%;
 }
 #langBox {
     border: 1px solid rgb(110, 211, 207);
@@ -53,8 +54,8 @@ a.codeLink {
     text-align: center;
     display: inline-block;
     cursor: auto;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
+    position: relative;  
 }
 #paintLang {
     position: relative;
@@ -69,13 +70,11 @@ a.codeLink {
     position: absolute;
     left: 2em;
     top: 27em;
-    
 }
 #mimicInfo{
     position: absolute;
-    top: 26em;
-    left: 30em;
-    
+    top: 55%;
+    left: 50%;
 }
 #mimicLang{
     position: absolute;
@@ -93,8 +92,8 @@ a.codeLink {
 }
 #kingdomInfo {
     position: absolute;
-    top: 54em;
-    left: 30em;
+    top: 120%;
+    left: 50%;
 }
 #kingdomLang {
     position: absolute;

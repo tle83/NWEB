@@ -12,6 +12,11 @@ html, body{
     padding: 0;
     font-size: 100%;
 }
+body.nonIndex {
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 100%;
+}
 body {
     background-color: rgb(49, 44, 50);
     overflow: auto;
@@ -70,8 +75,6 @@ img {
     margin: 5px 2px;
     cursor: pointer;
     border-radius: 8px;
-    display: inline-block;
-    float: left;
     position: relative;
     left: -30%;
 }
@@ -107,8 +110,7 @@ iframe {
     font-family: Monaco;
 }
 #code.codeProject {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: auto;
 }
 #console {
     width: 100%;
@@ -136,61 +138,54 @@ span.answer {
 span.indicator {
     color: rgb(250, 250, 250);
 }
+#linkMenu{
+    position: absolute;
+    margin: 5%;
+    display: inline-block;
+}
 #git{
     position: relative;
-    top: 5em;
-    left: 3em;
     width: 12em;
     height: 12em;
     outline: none;
     border: none;
 }
 #githubName{
-    position: absolute;
-    top: 18em;
-    left: 7em;
+    position: relative;
+    left: 35%;
 }
 #email{
     position: relative;
-    top: 5em;
-    left: 7em;
     width: 12em;
     height: 12em;
     outline: none;
     border: none;
 }
 #emailName {
-    position: absolute;
-    top: 18em;
-    left: 24em;
+    position: relative;
+    left: 35%;
 }
 #twitter {
     position: relative;
-    top: 5em;
-    left: 12em;
     width: 12em;
     height: 12em;
     outline: none;
     border: none;
 }
 #twitterName {
-    position: absolute;
-    top: 18em;
-    left: 41em;
+    position: relative;
+    left: 35%;
 }
 #tumblr {
     position: relative;
-    top: 5em;
-    left: 18em;
     width: 12em;
     height: 12em;
     outline: none;
     border: none;
 }
 #tumblrName {
-    position: absolute;
-    top: 18em;
-    left: 60em;
+    position: relative;
+    left: 35%;
 }
 #alert{
     text-align: center;
