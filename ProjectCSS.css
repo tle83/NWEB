@@ -26,6 +26,8 @@ a.codeLink {
 #projectSS {
     text-align: left;
     display: inline-block;
+    margin: 1em 1em;
+    padding: 1em;
     letter-spacing: .5px;
 }
 #paintImg {
@@ -35,7 +37,7 @@ a.codeLink {
     border: 2px solid rgb(43, 43, 43);
     position: absolute;
     top: 3em;
-    left: 2em;
+    left: 4%;
     float: left;
 }
 #paintInfo {
@@ -59,7 +61,6 @@ a.codeLink {
 }
 #paintLang {
     position: relative;
-    top: 11em;
 }
 #mimicImg {
     height: 250px;
@@ -68,7 +69,7 @@ a.codeLink {
     border: 2px solid rgb(43, 43, 43);
     float: left;
     position: absolute;
-    left: 2em;
+    left: 4%;
     top: 27em;
 }
 #mimicInfo{
@@ -77,8 +78,7 @@ a.codeLink {
     left: 50%;
 }
 #mimicLang{
-    position: absolute;
-    top: 22em;
+    position: relative;
 }
 #kingdomImg {
     height: 250px;
@@ -87,8 +87,8 @@ a.codeLink {
     border: 2px solid rgb(43, 43, 43);
     float: left;
     position: absolute;
-    left: 2em;
-    top: 55em;
+    left: 4%;
+    top: 60em;
 }
 #kingdomInfo {
     position: absolute;
@@ -96,6 +96,5 @@ a.codeLink {
     left: 50%;
 }
 #kingdomLang {
-    position: absolute;
-    top: 17em;
+    position: relative;
 }
