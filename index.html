@@ -12,30 +12,36 @@
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <script type="text/javascript" language="javascript" src="script.js"></script>
 </head>
-<body>
-    <!--Navigation Buttons-->
-    <nav class="menu">
-        <button type="button" class="button" value="home.html">Home</button>
-        <button type="button" class="button" value="projects.html">Projects</button>
-        <button type="button" class="button" value="blog.html">Dev Blog</button>
-        <button type="button" class="button" value="links.html">Links</button>
-    </nav>
-    <!--Title, job description and copyright-->
-    <div class="title" id="fontStyle">
-        Nevicity
+<body>  
+    <!--SIDE BAR / NAVIGATION PANEL-->
+    <div class="title" id="frontStyle">
+        <!--Title and job description-->
+        <div class="name" id="fontStyle">
+            Nevicity
+        </div>
+        
+        <div class="job" id="fontStyle">
+            Software Developer
+        </div>
+        <!--copyright-->
+        <div class="copyright" id="fontStyle">
+            &#169 2017 Tuyet Le
+        </div>
+
+        <!--Icon for website-->
+        <div id="splash">
+            <img src="Images/pink_frog.gif" />
+        </div>
+
+        <!--Navigation Buttons-->
+        <nav class="menu">
+            <button type="button" class="button" value="home.html">Home</button>
+            <button type="button" class="button" value="projects.html">Projects</button>
+            <button type="button" class="button" value="links.html">Links</button>
+        </nav>
     </div>
 
-    <div class="job" id="fontStyle">
-        Software Developer
-    </div>
-
-    <div class="copyright" id="fontStyle">
-        &#169 2017 Tuyet Le
-    </div>
-    <!--Icon for website-->
-    <div id="splash">
-        <img src="Images/pink_frog.gif" />
-    </div>
+    
 
     <div id="frame">
        <iframe id ="iframe" src="home.html"></iframe>
