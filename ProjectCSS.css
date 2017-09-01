@@ -52,9 +52,10 @@ img#ssImg {
     display: inline-block;
     cursor: auto;
     border-radius: 10px;
-    position: relative;
+    margin-top: .5em;
 }
 article #info{
     position: relative;
     left: 5%;
+    padding: 0em 1em 2em 0em;
 }

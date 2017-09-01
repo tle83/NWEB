@@ -145,7 +145,13 @@ span.indicator {
 #linkMenu{
     position: absolute;
     margin: 5%;
+    
+}
+.test {
     display: inline-block;
+    float: left;
+    margin: 1.5em;
+    letter-spacing: .2em;
 }
 #git{
     position: relative;
@@ -195,3 +201,4 @@ span.indicator {
     text-align: center;
     padding: 50px;
 }
+
