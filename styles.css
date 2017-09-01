@@ -111,6 +111,7 @@ iframe {
 }
 #code.codeProject {
     overflow-x: auto;
+    display: inline-block;
 }
 #console {
     width: 100%;

@@ -25,25 +25,18 @@ a.codeLink {
 }
 #projectSS {
     text-align: left;
-    display: inline-block;
     margin: 1em 1em;
     padding: 1em;
     letter-spacing: .5px;
 }
-#paintImg {
+#ssImg {
     height: 250px;
     width: 300px;
     border-radius: 15px;
     border: 2px solid rgb(43, 43, 43);
-    position: absolute;
-    top: 3em;
-    left: 4%;
-    float: left;
 }
-#paintInfo {
-    position: absolute;
-    top: 5%;
-    left: 50%;
+#lang {
+    position: relative;
 }
 #langBox {
     border: 1px solid rgb(110, 211, 207);
@@ -56,45 +49,12 @@ a.codeLink {
     text-align: center;
     display: inline-block;
     cursor: auto;
-    border-radius: 10px;  
-    position: relative;  
-}
-#paintLang {
+    border-radius: 10px;
     position: relative;
 }
-#mimicImg {
-    height: 250px;
-    width: 300px;
-    border-radius: 15px;
-    border: 2px solid rgb(43, 43, 43);
+article.project{
+    display: inline-block;
     float: left;
-    position: absolute;
-    left: 4%;
-    top: 27em;
-}
-#mimicInfo{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-}
-#mimicLang{
-    position: relative;
-}
-#kingdomImg {
-    height: 250px;
-    width: 300px;
-    border-radius: 15px;
-    border: 2px solid rgb(43, 43, 43);
-    float: left;
-    position: absolute;
-    left: 4%;
-    top: 60em;
-}
-#kingdomInfo {
-    position: absolute;
-    top: 120%;
-    left: 50%;
-}
-#kingdomLang {
-    position: relative;
+    vertical-align: middle;
+    overflow-y: hidden;
 }
