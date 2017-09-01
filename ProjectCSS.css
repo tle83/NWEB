@@ -28,8 +28,10 @@ a.codeLink {
     margin: 1em 1em;
     padding: 1em;
     letter-spacing: .5px;
+    display: inline-flex;
+    float: left;
 }
-#ssImg {
+img#ssImg {
     height: 250px;
     width: 300px;
     border-radius: 15px;
@@ -52,9 +54,7 @@ a.codeLink {
     border-radius: 10px;
     position: relative;
 }
-article.project{
-    display: inline-block;
-    float: left;
-    vertical-align: middle;
-    overflow-y: hidden;
+article #info{
+    position: relative;
+    left: 5%;
 }
