@@ -149,7 +149,6 @@ span.indicator {
 }
 .test {
     display: inline-block;
-    float: left;
     margin: 1.5em;
     letter-spacing: .2em;
 }
