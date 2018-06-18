@@ -33,7 +33,7 @@ a.codeLink {
 }
 img#ssImg {
     height: 250px;
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
     border: 2px solid rgb(43, 43, 43);
 }
@@ -58,4 +58,6 @@ article #info{
     position: relative;
     left: 5%;
     padding: 0em 1em 2em 0em;
+    word-wrap: break-word;
+    width: 400px;
 }

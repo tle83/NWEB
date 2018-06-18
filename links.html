@@ -3,41 +3,74 @@
 <html>
 <head>
 	<title>Nevicity</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-    <script type="text/javascript" language="javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />  
 </head>
 <body class="nonIndex">
     <div id="code" class="codeProject">
         <div id="console" >
             <div id="linkMenu" >
 
-                <div class="test">
+                <div class="linkButton">
                     <a href="https://github.com/tle83" target="_blank">
                         <img src="Images/github_icon.png" id="git" title="Github" />
                     </a>
                     <p id="githubName">GitHub</p>
                 </div>
-                <div class="test">
-                    <a href="mailto:tnle833@gmail.com" target="_top">
+
+                <!--Trigger for email popup modal box-->
+                <div class="linkButton">
+                    <button id="modalTrigger">
                         <img src="Images/email_icon.png" id="email" title="tnle833@gmail.com" />
-                    </a>
+                    </button>
                     <p id="emailName">Email</p>
                 </div>
-                <div class="test">
-                    <a href="https://twitter.com/_Nevicity" target="_blank">
-                        <img src="Images/twitter_icon.png" id="twitter" title="_Nevicity" />
-                    </a>
-                    <p id="twitterName">Twitter</p>
-                </div>
 
-                <div class="test">
-                    <a href="http://www.nevicity.tumblr.com/" target="_blank">
-                        <img src="Images/tumblr_icon.png" id="tumblr" title="Nevicity Tumblr" />
-                    </a>
-                    <p id="tumblrName">Tumblr</p>
-            </div>
+                <!-- modal box -->
+                <div id="emailModal" class="modal" role="dialog">
+                    <!-- modal content -->
+                        <div class="modalContent">
+                            <a class="close">&times;</a>
+                            <form id="contactForm" role="form" action="" method="POST">
+                                    <div class="modalHeader">
+                                        <div class="modalHeader">
+                                            <h3>Contact Me <br/><b>[UNDER CONSTRUCTION - NOT YET WORKING]</b></h3> 
+                                        </div>
+                                    </div>
+                                    <div class="modalBody" id="modalBodyID">
+                                        <div>
+                                            <label class="contactEmailLabel">Email to: TNLE833@GMAIL.COM</label>
+                                        </div>
+                                        <div class="formGroup">
+                                            <label for="contactEmail" class="contactEmailLabel">Name:</label>
+                                            <div class="contactEmailInput">
+                                                <input type="text" name="name" class="formControl" id="contactName" placeholder="Full Name">
+                                            </div>
+                                        </div>
+                                        <div class="formGroup">
+                                            <label for="contactEmail" class="contactEmailLabel">Email:</label>
+                                            <div class="contactEmailInput">
+                                                <input type="email" name="email" class="formControl" id="contactEmail" placeholder="name@example.com">
+                                            </div>
+                                        </div>
+                                        <div class="formGroup">
+                                            <label for="contactMessage" class="contactEmailLabel">Message:</label>
+                                            <div class="contactEmailInput">
+                                                <textarea name="message" placeholder="Type your message..." id="contactMessage" class="formControl" rows="6"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modalFooter">
+                                        <button class="contactButton" id="closeButton">Close</button>
+                                        <button class="contactButton" id="newMessage" type="reset">New Message</button>
+                                        <button class="contactButton" value="1" name="submit" type="submit" id="submit">Send Message</button>
+                                    </div>
+                            </form>
+                        </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script type="text/javascript" language="javascript" src="script.js"></script>
+<script type="type/php" lang="php" src="email.php"></script>
 </html>
