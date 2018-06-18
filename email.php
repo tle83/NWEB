@@ -1,4 +1,5 @@
 <?php
+
 $to = 'TNLE833@GMAIL.COM';
 $subject = test_input($_POST['name']);
 $header = test_input($_POST['email']);
@@ -24,4 +25,5 @@ else{
 }
 
 mail($to, $subject, $message, $header);
+
 ?>
