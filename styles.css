@@ -79,13 +79,14 @@ img {
     position: relative;
     left: -30%;
 }
-.button:active {
-    background-color: rgb(230, 39, 57);
+.button:active,
+.button:hover{
+    background: rgb(194, 90, 128);
 }
 #frame {
-    position: absolute;
+    position: relative;
     top: 5%;
-    left: 38%;
+    left: -5%;
     width: 58%;
     height: 87%;
     float: right;
@@ -136,6 +137,7 @@ iframe {
 #info{
     padding-top: 2em;
     padding-left: 1.5em;
+    padding-right: 1.5em;
     letter-spacing: 1px;
 }
 span.answer {
@@ -260,8 +262,7 @@ span.indicator {
     position: relative;
     right: -80%;
 }
-.contactButton:hover,
-.contactButton:focus{
+.contactButton:hover{
 background-color: rgb(195, 122, 255);
 }
 

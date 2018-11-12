@@ -19,7 +19,7 @@ var closeButton = document.getElementById('closeButton');
 //listen for click
 trigger.addEventListener('click', openModal);
 xClose.addEventListener('click', closeModal);
-closeButton.addEventListener('click', closeModal);
+//closeButton.addEventListener('click', closeModal);
 window.addEventListener('click', outsideClick);
 //functions
 function openModal(){
