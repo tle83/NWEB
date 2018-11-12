@@ -160,27 +160,16 @@ span.indicator {
     margin: 1.5em;
     letter-spacing: .2em;
 }
-#git{
+#linkName{
+    position: relative;
+    left: 35%;
+}
+#linkImage{
     position: relative;
     width: 12em;
     height: 12em;
     outline: none;
     border: none;
-}
-#githubName{
-    position: relative;
-    left: 35%;
-}
-#email{
-    position: relative;
-    width: 12em;
-    height: 12em;
-    outline: none;
-    border: none;
-}
-#emailName {
-    position: relative;
-    left: 35%;
 }
 #alert{
     text-align: center;
@@ -267,6 +256,9 @@ span.indicator {
     font-size: 1em;
     margin: .5em .1em;
     cursor: pointer;
+    /* Below is code for the close button without the php forms working*/
+    position: relative;
+    right: -80%;
 }
 .contactButton:hover,
 .contactButton:focus{
